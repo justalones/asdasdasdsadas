@@ -97,49 +97,49 @@ local Home = UI:addPage("Teleport",4,true,6)
 Home:addLabel("Teleport to Selected Map","")
 
 Home:addButton("Pirate Island",function()
-  66.8071442, 188.944244, -81.5665359, 1, 0, 0, 0, 1, 0, 0, 0, 1
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(66.8071442, 188.944244, -81.5665359, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
 
 Home:addButton("Slayer Island",function()
-  4118.41504, 267.488373, -2876.52539, 0.994399905, 0, 0.105682522, 0, 1, 0, -0.105682522, 0, 0.994399905
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4118.41504, 267.488373, -2876.52539, 0.994399905, 0, 0.105682522, 0, 1, 0, -0.105682522, 0, 0.994399905)
 end)
 
 Home:addButton("Sorcerer Island",function()
-  3044.30176, 110.14859, -723.292358, 1, 0, 0, 0, 1, 0, 0, 0, 1
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3044.30176, 110.14859, -723.292358, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
 
 Home:addButton("Super Island",function()
-  1199.89453, 213.350616, -878.420227, 0.866007268, -0, -0.500031412, 0, 1, -0, 0.500031412, 0, 0.866007268
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1199.89453, 213.350616, -878.420227, 0.866007268, -0, -0.500031412, 0, 1, -0, 0.500031412, 0, 0.866007268)
 end)
 
 Home:addButton("Strongest Island",function()
-  1717.0459, 134.865875, -2273.95312, 1, 0, 0, 0, 1, 0, 0, 0, 1
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1717.0459, 134.865875, -2273.95312, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
 
 Home:addButton("Boss Arena",function()
-  -1633.04956, 212.033096, -379.237305, 0, 0, 1, 0, 1, -0, -1, 0, 0
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1633.04956, 212.033096, -379.237305, 0, 0, 1, 0, 1, -0, -1, 0, 0)
 end)
 
 Home:addButton("Ninja Island",function()
-  -1429.62354, 214.875092, 1045.26147, 0.94107163, -0, -0.338207275, 0, 1, -0, 0.338207275, 0, 0.94107163
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1429.62354, 214.875092, 1045.26147, 0.94107163, -0, -0.338207275, 0, 1, -0, 0.338207275, 0, 0.94107163)
 end)
 
 Home:addButton("Maze 1",function()
-  -2104.87305, 135.177429, -1655.51331, -1, 0, 0, 0, 1, 0, 0, 0, -1
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2104.87305, 135.177429, -1655.51331, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
 
 Home:addButton("Maze 2",function()
-  -1999.92749, 136.919235, -1543.81543, -1, 0, 0, 0, 1, 0, 0, 0, -1
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1999.92749, 136.919235, -1543.81543, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
 
 Home:addButton("Maze 3",function()
-  -1972.19714, 136.220032, -1733.37402, -1, 0, 0, 0, 1, 0, 0, 0, -1
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1972.19714, 136.220032, -1733.37402, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
 
 Home:addButton("Dungeon Lobby",function()
-  -3472.67236, 141.437241, -1626.37402, -1, 0, 0, 0, 1, 0, 0, 0, -1
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3472.67236, 141.437241, -1626.37402, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
 
 Home:addButton("Dragon Mine",function()
-  -1225.01489, 144.727798, -2958.50635, 0.034969151, -0, -0.999388516, 0, 1, -0, 0.999388516, 0, 0.034969151
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1225.01489, 144.727798, -2958.50635, 0.034969151, -0, -0.999388516, 0, 1, -0, 0.999388516, 0, 0.034969151)
 end)
